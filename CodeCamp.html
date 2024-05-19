@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--html is root element and must wrap everything else-->
+<!--lang attribute tells what language page is in-->
+<html lang="en">
+    <main>
+        <head>
+            <!--meta elements set browser behavior-->
+            <meta charset="UTF-8">
+            <!--title element dictates what displays in tab-->
+            <title>Frozen Gains</title>
+        </head>
+        <body>
+            <h1>
+                H1 is the most important
+            </h1>
+            <!--section element helps with SEO and organization-->
+            <section>
+                <h2>
+                    H2 and up are less important
+                </h2>
+                <!--this is a comment-->
+                <p>
+                    Paragraph element. Can turn <a href="https://www.proteinpints.com/">normie text</a> into links
+                </p>
+                <!--img element allows display of images, doesn't need to be closed-->
+                <!--src attribute tells where to find img-->
+                <!--alt attribute if image fails to load-->
+                <!--can turn images into links by surrounding with anchor-->
+                <a href="https://catalog.iastate.edu/azcourses/">
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Your mom">
+                </a>
+                <!--a element is an anchor to redirect to other sites-->
+                <!--Target attribute tells anchor where to open link-->
+                <a href="https://frc-utilities.github.io/documentation/qjoysticks/class_q_joysticks.html" target="_blank">
+                    Link to QJoysticks Documentation
+                </a>
+            </section>
+            <section>
+                <h2>
+                    More cool stuff
+                </h2>
+                <h3>
+                    Sicker and nastier
+                </h3>
+                <!--ul is unordered list element (bullet points)-->
+                <!--li is list element-->
+                <ul>
+                    <li>Nugget</li>
+                    <li>Fridge</li>
+                    <li>Lick me</li>
+                </ul>
+                <!--figure element can associtate photo with caption-->
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Food here">
+                    <!--here is a caption element for this image-->
+                    <!--can emphasize words with em element-->
+                    <!--can bold words with strong element-->
+                    <figcaption><em>Garfield</em> would be <strong>proud</strong></figcaption>
+                </figure>
+                <!--ol is order list element (numbered points)-->
+                <ol>
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                </ol>
+                <h2>Sick form</h2>
+                <!--form element can gather info from users-->
+                <!--action attribute tells browser where to send form data-->
+                <form>
+                    <!--input elment gives ways to collect data-->
+                    <!--type attribute specifies what sort of input to gather-->
+                    <!--name attribute specifies what data is being collected-->
+                    <!--required attribute ensures user can't submit form without filling this out-->
+                    <input type="text" name="important stuff" placeholder="put something here..." required>
+                    <!--button element, does button like things-->
+                    <button type="submit">Click Me</button>
+                    <!--fieldset element used to group related inputs and labels-->
+                    <fieldset>
+                        <!--legend element is a caption to tell users about what they should enter-->
+                        <legend>Which is better?</legend>
+                        <!--radio element forces user to choose one of several options-->
+                        <!--label element associates text of input with input element-->
+                        <!--id attribute helps identify specific HTML elemlents-->
+                        <!--value attribute specifies what info is important to collect-->
+                        <label>
+                            <input type="radio" id="thisID" name="me"> Cat
+                        </label>
+                        <label>
+                            <input type="radio" id="thatID" name="me"> Dog
+                        </label>                        
+                    </fieldset>
+                    <fieldset>
+                        <legend>What music do you like?</legend>
+                        <label>
+                            <input type="checkbox"> Metal
+                        </label>
+                        <label>
+                            <input type="checkbox"> Classical
+                        </label>
+                        <label>
+                            <input type="checkbox"> Jazz
+                        </label>
+                    </fieldset>
+                </form>
+            </section>
+        </body>
+    </main>
+    <!--footer element good for copyright and stuff-->
+    <footer>
+        <p>Property of me</p>
+    </footer>
+</html>

@@ -1,0 +1,82 @@
+h1, h2, p {
+    text-align: center;
+}
+body {
+    background-color: white;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    /*second font is "fallback" incase browser doesn't support first font*/
+    font-family: sans-serif, serif;
+    padding: 20px;
+}
+/*#used to refer to spefic elements with mathcing id value*/
+#menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1, h2 {
+    font-family: Impact, serif;
+}
+/*.seems to work similar to id but is for class*/
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+.price {
+    text-align: right;
+    width: 25%;
+}
+/*styling all "p" elements within this article*/
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.established {
+    font-style: italic;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 30px;
+}
+hr {
+    height: 3px;
+    background-color: brown;
+    border-color: brown;
+}
+.bottom-line {
+    margin-top: 25px;
+}
+/*FOOTER*/
+footer {
+    font-size: 14px;
+}
+a {
+    color: black;
+}
+/*pseudo-selector*/
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: brown;
+}
+.address {
+    margin-bottom: 5px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
