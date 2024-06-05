@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="FrozenGainsHome2.css">
+        <title>Frozen Gains | Mass Gainer Ice Cream</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <a href="file:///C:/Users/lenzz/OneDrive/Desktop/Nerd%20Projects/WebDev/Projects/FrozenGainsHome.html">
+                    <img id="logo" src="C:\Users\lenzz\OneDrive\Desktop\Career\Businesses\Frozen Gains\Pictures\FrozenGainsLogo.png" alt="Frozen Gains Logo">
+                </a>
+                <nav>
+                    <ul class="head-links">
+                        <li id="home"><a href="file:///C:/Users/lenzz/OneDrive/Desktop/Nerd%20Projects/WebDev/Projects/FrozenGainsHome.html">HOME</a></li>
+                        <li id="flavors"><a href="url for Flavors">FLAVORS</a></li><!--ADD LINK-->
+                        <li id="locations"><a href="url for Locations">LOCATIONS</a></li><!--ADD LINK-->
+                        <li id="story"><a href="url for Story">STORY</a></li><!--ADD LINK-->
+                        <li id="contact"><a href="url for contact">CONTACT</a></li><!--ADD LINK-->
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!--Image Carousel Start-->
+            <div class="slider">
+                <div class="slide-track">
+                    <input type="radio" name="radio-button" id="radio0">
+                    <input type="radio" name="radio-button" id="radio1">
+                    <input type="radio" name="radio-button" id="radio2">
+                    <input type="radio" name="radio-button" id="radio3">
+                    <!--Placeholder images-->
+                    <div class="slide first">
+                        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-button0"></div>
+                        <div class="auto-button1"></div>
+                        <div class="auto-button2"></div>
+                        <div class="auto-button3"></div>
+                    </div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio0" class="manual-button"></label>
+                    <label for="radio1" class="manual-button"></label>
+                    <label for="radio2" class="manual-button"></label>
+                    <label for="radio3" class="manual-button"></label>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var counter = 0;
+                setInterval(function() {
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if(counter > 3) {
+                        counter = 0;
+                    }
+                }, 5000);
+            </script>
+            <!--Image Carousel End-->
+            <h1 class="words">Unfreeze your gains with Frozen Gains</h1>
+            <div class="call-to-action">
+                <span class="call-to-action">Some sick<br />
+                    quote that<br />
+                    is a call<br />
+                    to action<br />
+                    -Swolar Bear</span>
+                    <img id="swole" src="C:\Users\lenzz\OneDrive\Desktop\Career\Businesses\Frozen Gains\Pictures\FrozenGainsSwolarBear.png" alt="Swolar Bear">
+            </div>
+            <div class="store-locator">
+                <a id="store-button" href="url to store locator">Find a Store Near You</a><!--ADD LINK-->
+            </div>
+            <h1 class="words">Want updates on Frozen Gains?</h1>
+            <h2 class="words">Sign up below!</h2>
+            <form action="link to db" method="POST"> <!--ADD LINK-->
+                <div class="sign-up">
+                    <label class="info">Name</label>
+                    <div class="info2"><input type="text" required placeholder="My name is..."></div>
+                    <label class="info">Email</label>
+                    <div class="info2"><input type="email" required placeholder="My email is..."></div>
+                    <label class="info">How did you hear about us?</label>
+                    <div class="info2"><textarea placeholder="Socail Media, Friends, etc..." rows="3" cols="30"></textarea></div>
+                    <button type="submit">Sign Me Up!</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div class="divide-line"></div>
+            <div id="bottom">
+                <a href="file:///C:/Users/lenzz/OneDrive/Desktop/Nerd%20Projects/WebDev/Projects/FrozenGainsHome.html">
+                    <img id="logo2" src="C:\Users\lenzz\OneDrive\Desktop\Career\Businesses\Frozen Gains\Pictures\FrozenGainsLogo.png" alt="Frozen Gains Logo">
+                </a>
+                <div class="socials">
+                    <a href="link to youtube" target="about_blank"><!--ADD LINK-->
+                        <img class="social" alt="Youtube" src="C:\Users\lenzz\OneDrive\Desktop\Career\Businesses\Frozen Gains\Pictures\104482_youtube_icon_white.png">
+                    </a>
+                    <a href="link to linkedin" target="about_blank"><!--ADD LINK-->
+                        <img class="social" alt="LinkedIn" src="C:\Users\lenzz\OneDrive\Desktop\Career\Businesses\Frozen Gains\Pictures\104493_linkedin_icon_white.png">
+                    </a>
+                    <a href="link to facebook" target="about_blank"><!--ADD LINK-->
+                        <img class="social" alt="Facebook" src="C:\Users\lenzz\OneDrive\Desktop\Career\Businesses\Frozen Gains\Pictures\104498_facebook_icon_white.png">
+                    </a>
+                    <a href="link to snapchat" target="about_blank"><!--ADD LINK-->
+                        <img class="social" alt="Snapchat" src="C:\Users\lenzz\OneDrive\Desktop\Career\Businesses\Frozen Gains\Pictures\843785_snapchat_icon_white.png">
+                    </a>
+                    <a href="link to instagram" target="about_blank"><!--ADD LINK-->
+                        <img class="social" alt="Instagram" src="C:\Users\lenzz\OneDrive\Desktop\Career\Businesses\Frozen Gains\Pictures\1161953_instagram_icon_white.png">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

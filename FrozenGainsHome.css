@@ -1,0 +1,259 @@
+html {
+    background-color: #202020;
+}
+body {
+    font-family: Impact;
+    font-size: 20px;
+    color: #ffffff;
+}
+#logo {
+    width: 35%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #202020;
+    padding: 10px 0;
+}
+#ice-cream {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    background-color: #202020;
+    padding: 10px 0;
+}
+nav {
+    padding: 10px 0;
+}
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    flex-wrap: wrap;
+}
+li > a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #355f9c;
+    max-width: 20px;
+    border: 3px solid #355f9c;
+    border-radius: 3px;
+}
+nav li > a:hover {
+    background-color: #4f95ff;
+    color: #ffffff;
+    cursor: pointer;
+    border: 3px solid #4f95ff;
+    border-radius: 3px;
+}
+.head-links {
+    list-style: none;
+}
+.divide-line {
+    border-bottom: 3px solid #303030;
+}
+.slider {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide-track {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slide-track input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 800px;
+    height: 500px;
+}
+
+.navigation-manual {
+    position: absolute;
+    width: 50%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-button {
+    border: 2px solid #355f9c;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.manual-button:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-button:hover {
+    background: #4f95ff;
+}
+
+#radio0:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio1:checked ~ .first {
+    margin-left: -20%;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -40%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -60%;
+}
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.navigation-auto div {
+    border: 2px solid #355f9c;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio0:checked ~ .navigation-auto .auto-button0 {
+    background: #4f95ff;
+}
+
+#radio1:checked ~ .navigation-auto .auto-button1 {
+    background: #4f95ff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-button2 {
+    background: #4f95ff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-button3 {
+    background: #4f95ff;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+#swole {
+    margin: 0 10px;
+}
+.store-locator {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+#store-button {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #355f9c;
+    max-width: 50%;
+    border: 3px solid #355f9c;
+    border-radius: 3px;
+}
+#store-button:hover {
+    background-color: #4f95ff;
+    color: #ffffff;
+    cursor: pointer;
+    border: 3px solid #4f95ff;
+    border-radius: 3px;
+}
+.home-shortcut {
+    text-decoration: none;
+    color: #000000;
+}
+.home-shortcut:hover {
+    color: #a0a0a0;
+    cursor: pointer;
+}
+.referrer {
+    list-style: none;
+}
+button {
+    color: #ffffff;
+    background-color: #355f9c;
+    border: 0px solid #000000;
+    border-radius: 3px;
+    font-family: Impact, sans-serif;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 200px;
+}
+button:hover {
+    color: #ffffff;
+    background-color: #4f95ff;
+    border: 0px solid #000000;
+    border-radius: 3px;
+    font-family: Impact, sans-serif;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 200px;
+}
+.socials {
+    display: flex;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: 70%;
+    width: 50%;
+    height: 50px;
+    padding: 5px 20px;
+}
+.social {
+    max-width: 100%;
+    height: auto;
+}
+#bottom {
+    display: flex;
+}
+#logo2 {
+    width: 50%;
+    background-color: #202020;
+    padding: 10px 10%;
+}
+.words {
+    text-align: center;
+}
+form {
+    margin-left: 10px;
+}
+.info {
+    display:flex;
+    justify-content: space-evenly;
+}
+.info2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
